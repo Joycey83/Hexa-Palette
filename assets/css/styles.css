@@ -4,16 +4,39 @@ Variables
 ===============
 */
 :root {
+  /* dark shades of primary color*/
+  --clr-primary-1: #4c0000;
+  --clr-primary-2: #660000;
+  --clr-primary-3: #800000;
+  --clr-primary-4: #990000;
+  /* darkest grey - used for headings */
+  --clr-grey-1: #141619;
+  --clr-grey-2: #171a1d;
+  /* grey used for paragraphs */
+  --clr-grey-3: #1a1e21;
+  --clr-grey-4: #1e2125;
   --ff-primary: "Anta", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
+  --letter-spacing: 0.1rem;
+  --transition: all 0.3s linear;
+  --border-radius: 0.35rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
 }
-
 *,
 ::after,
 ::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+div {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 50%;
+  padding: 5rem;
+  background-color: #800000;
+  border-radius: var(--border-radius);
 }
