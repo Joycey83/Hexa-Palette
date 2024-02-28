@@ -3,6 +3,10 @@
 Variables
 ===============
 */
+:root {
+  --ff-primary: "Anta", sans-serif;
+  --ff-secondary: "Open Sans", sans-serif;
+}
 
 *,
 ::after,
