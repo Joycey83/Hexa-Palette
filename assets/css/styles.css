@@ -6,6 +6,8 @@ Variables
 :root {
   --ff-primary: "Anta", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 *,
