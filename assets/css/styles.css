@@ -32,11 +32,27 @@ Variables
   box-sizing: border-box;
 }
 
-div {
-  margin-top: 1rem;
-  margin-left: 1rem;
-  width: 50%;
-  padding: 5rem;
-  background-color: #800000;
-  border-radius: var(--border-radius);
+.styles-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 4rem 2.1rem;
+}
+
+.styles-container div {
+  text-align: center;
+  padding: 4rem;
+  background-color: #1a1e21;
+  color: aliceblue;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 2rem;
 }
