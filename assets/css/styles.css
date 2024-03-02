@@ -17,8 +17,10 @@ Variables
   --clr-grey-4: #1e2125;
   --clr-grey-5: #5b5c5e;
   --clr-grey-6: #727375;
+  --clr-white: #fffff0;
   --ff-primary: "Anta", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
+  --text-transform: uppercase;
   --letter-spacing: 0.1rem;
   --transition: all 0.3s linear;
   --border-radius: 0.35rem;
@@ -39,11 +41,54 @@ Global Styles
   padding: 0;
   box-sizing: border-box;
 }
-
+h1 {
+  color: var(--clr-primary-2);
+  font-family: var(--ff-primary);
+  font-size: 3rem;
+  letter-spacing: var(--letter-spacing);
+}
 main {
   min-height: calc(100vh - 3rem);
   display: grid;
   place-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*NAV*/
+
+nav {
+  background: var(--clr-white);
+  height: 5rem;
+  display: grid;
+  align-items: center;
+  box-shadow: var(--dark-shadow);
+}
+
+.nav-center {
+  width: 90vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+}
+
+nav a {
+  font-family: var(--ff-primary);
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--clr-primary-2);
+  letter-spacing: var(--spacing);
+  margin-right: 1rem;
 }
 
 .styles-container {
@@ -76,7 +121,7 @@ main {
 
 .border-box {
   color: var(--clr-grey-2);
-  background-color: #fffff0;
+  background-color: var(--clr-white);
 }
 
 .box-shadow-container {
@@ -84,7 +129,7 @@ main {
   color: var(--clr-grey-1);
 }
 
-.outer-container {
+.outer-container h2 {
   padding: 0.83rem 1.35rem;
   background-color: #171a1d;
 }
