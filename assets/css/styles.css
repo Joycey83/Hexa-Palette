@@ -179,3 +179,22 @@ nav a {
   color: var(--clr-white);
   background: var(--clr-primary-3);
 }
+
+footer {
+  padding: 2rem;
+  background-color: var(--clr-primary-1);
+}
+
+/*
+=======================
+MEDIA QUERIES
+=======================
+*/
+
+@media screen and (max-width: 800px) {
+  .styles-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 4rem 2.1rem;
+  }
+}
