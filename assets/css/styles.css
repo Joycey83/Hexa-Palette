@@ -57,15 +57,17 @@ main {
 
 .text-box,
 .border-box,
-.box-shadow-container p {
+.box-shadow-container {
   font-family: var(--ff-secondary);
   letter-spacing: var(--letter-spacing);
-  font-weight: 700;
+  text-transform: uppercase;
+  font-weight: 800;
   font-size: 1.2rem;
   text-align: center;
   width: 100%;
   padding: 3rem;
   box-shadow: var(--dark-shadow);
+  border-radius: var(--border-radius);
 }
 
 .text-box {
