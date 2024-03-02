@@ -148,6 +148,10 @@ nav a {
   color: aliceblue;
 }
 
+.color {
+  padding: 0.34rem;
+}
+
 .btn-container {
   display: flex;
   justify-content: center;
