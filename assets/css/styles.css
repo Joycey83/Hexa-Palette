@@ -181,8 +181,15 @@ nav a {
 }
 
 footer {
-  padding: 2rem;
+  padding: 1rem;
   background-color: var(--clr-primary-1);
+}
+
+.author {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--clr-white);
+  text-transform: capitalize;
 }
 
 /*
