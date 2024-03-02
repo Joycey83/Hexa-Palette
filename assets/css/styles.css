@@ -40,13 +40,14 @@ Global Styles
 
 .styles-container {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: 1fr;
   gap: 1rem;
   margin: 4rem 2.1rem;
 }
 
 .styles-container div {
-  text-align: center;
+  margin: 0 auto;
+  width: 50%;
   padding: 3rem;
   background-color: #1a1e21;
   color: aliceblue;
