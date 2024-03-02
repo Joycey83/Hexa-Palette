@@ -38,18 +38,33 @@ Global Styles
   box-sizing: border-box;
 }
 
+main {
+  min-height: calc(100vh - 3rem);
+  display: grid;
+  place-items: center;
+}
+
 .styles-container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   margin: 4rem 2.1rem;
 }
 
 .styles-container div {
   margin: 0 auto;
-  width: 50%;
+  width: 75%;
   padding: 3rem;
   background-color: #1a1e21;
+  color: aliceblue;
+}
+
+.outer-container {
+  padding: 0.83rem 1.35rem;
+  background-color: #171a1d;
+}
+
+.outer-container h2 {
   color: aliceblue;
 }
 
@@ -57,9 +72,9 @@ Global Styles
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
 }
 
 .btn {
-  display: inline-block;
-  padding: 2rem;
+  padding: 0.75rem 1.25rem;
 }
