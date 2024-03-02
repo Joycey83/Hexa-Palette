@@ -42,18 +42,26 @@ Global Styles
   padding: 0;
   box-sizing: border-box;
 }
-h1 {
-  color: var(--clr-primary-2);
-  font-family: var(--ff-primary);
-  font-size: 3rem;
-  letter-spacing: var(--letter-spacing);
+body {
+  font-family: var(--ff-secondary);
 }
 main {
   min-height: calc(100vh - 3rem);
   display: grid;
   place-items: center;
 }
+h1 {
+  color: var(--clr-primary-2);
+  font-family: var(--ff-primary);
+  font-size: 3rem;
+  letter-spacing: var(--letter-spacing);
+}
 
+h2 {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  letter-spacing: var(--letter-spacing);
+}
 ul {
   list-style-type: none;
 }
@@ -131,8 +139,9 @@ nav a {
 }
 
 .outer-container h2 {
-  padding: 0.83rem 1.35rem;
+  padding: 1.1rem 1.35rem;
   background-color: #171a1d;
+  border-radius: var(--border-radius);
 }
 
 .outer-container h2 {
