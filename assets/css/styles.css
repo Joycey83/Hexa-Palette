@@ -15,6 +15,8 @@ Variables
   /* grey used for paragraphs */
   --clr-grey-3: #1a1e21;
   --clr-grey-4: #1e2125;
+  --clr-grey-5: #5b5c5e;
+  --clr-grey-6: #727375;
   --ff-primary: "Anta", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
   --letter-spacing: 0.1rem;
@@ -49,9 +51,6 @@ main {
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   margin: 4rem 2.1rem;
-}
-
-.styles-container {
   margin: 0 auto;
   color: aliceblue;
 }
@@ -61,11 +60,26 @@ main {
 .box-shadow-container p {
   font-family: var(--ff-secondary);
   letter-spacing: var(--letter-spacing);
+  font-weight: 700;
   font-size: 1.2rem;
   text-align: center;
   width: 100%;
   padding: 3rem;
-  background-color: #1a1e21;
+  box-shadow: var(--dark-shadow);
+}
+
+.text-box {
+  background-color: var(--clr-grey-1);
+}
+
+.border-box {
+  color: var(--clr-grey-2);
+  background-color: #fffff0;
+}
+
+.box-shadow-container {
+  background-color: var(--clr-grey-5);
+  color: var(--clr-grey-1);
 }
 
 .outer-container {
