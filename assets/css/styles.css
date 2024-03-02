@@ -51,12 +51,21 @@ main {
   margin: 4rem 2.1rem;
 }
 
-.styles-container div {
+.styles-container {
   margin: 0 auto;
-  width: 75%;
+  color: aliceblue;
+}
+
+.text-box,
+.border-box,
+.box-shadow-container p {
+  font-family: var(--ff-secondary);
+  letter-spacing: var(--letter-spacing);
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
   padding: 3rem;
   background-color: #1a1e21;
-  color: aliceblue;
 }
 
 .outer-container {
