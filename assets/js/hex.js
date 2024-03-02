@@ -10,3 +10,17 @@ const boxShadow = document.querySelector(".box-shadow");
 function randomHexCodeNumber() {
   return Math.floor(Math.random() * hex.length);
 }
+
+btn.addEventListener("click", function () {
+  let hexColor = "#";
+
+  for (let i = 0; i < 6; i++) {
+    hexColor += hex[randomHexCodeNumber()];
+  }
+
+  spanColor.style.backgroundColor = hexColor;
+  spanColor.textContent = hexColor;
+  textColor.style.color = hexColor;
+  border.style.border = `7px solid ${hexColor}`;
+  boxShadow.style.boxShadow = `2px 2px 7px 1px ${hexColor}`;
+});
