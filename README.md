@@ -4,11 +4,11 @@ Hexa Palette lets you quickly generator colours using Rgb values or hexcode valu
 
 [View the live project here.](https://hexapalette.netlify.app//)
 
-## Hexcode
+## Rgb values
 
 ![Hexcode Image](/assets/image/hexcode-screenshot.png)
 
-## Rgb values
+## Hexcode values
 
 ![Rgb value Image](/assets/image/hexcode-screenshot-2.png)
 
