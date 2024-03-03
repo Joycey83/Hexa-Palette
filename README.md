@@ -22,3 +22,5 @@ Hexa Palette lets you quickly generator colours using Rgb values or hexcode valu
 - Google Fonts One: [Anta](https://fonts.google.com/specimen/Anta?query=anta)
 
 - Google Fonts Two: [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open+sans)
+
+## Color Reference
