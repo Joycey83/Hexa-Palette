@@ -17,7 +17,7 @@ Hexa Palette lets you quickly generator colours using Rgb values or hexcode valu
 - randomly generate hexcode color values
 - randomly generate Rgb color values
 
-# Frameworks & Programs Used
+# Typography used
 
 - Google Fonts One: [Anta](https://fonts.google.com/specimen/Anta?query=anta)
 
