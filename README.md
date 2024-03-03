@@ -23,4 +23,10 @@ Hexa Palette lets you quickly generator colours using Rgb values or hexcode valu
 
 - Google Fonts Two: [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open+sans)
 
-## Color Reference
+## Running Locally
+
+1. Fork this repository
+2. Clone your forked repository to your local machine
+3. Install dependencies with npm install
+4. Start the development server with npm start
+5. Open your browser and navigate to http://localhost:3000
